@@ -3,7 +3,9 @@
     id="cordova-plugin-wacom-signature"
     version="1.0">
 <name>cordova-plugin-wacom-signature</name>
-
+ <js-module name="stripe" src="www/simle.js">
+        <clobbers target="cordova.plugins.wacom" />
+    </js-module>
 <platform name="browser">
     <config-file target="config.xml" parent="/*"></config-file>
     <js-module  src="src/browser/signature_sdk.js" name="signature">
