@@ -9,6 +9,7 @@
     "cordova": {
         "id": "cordova-plugin-wacom-signature",
         "platforms":[
+            "android",
             "browser"
         ]
     },
@@ -20,6 +21,7 @@
         "ecosystem:cordova",
         "cordova-browser",
         "wacom-signature",
+        "cordova-android",
         "cordova-plugin"
     ],
     "author": "Noli II B. Albay",
