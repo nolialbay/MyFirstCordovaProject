@@ -15,6 +15,9 @@ var ENVIRONMENT_IS_WEB = true;
 var ENVIRONMENT_IS_WORKER = false;
 var scriptDirectory = "";
 
+function captureFromCanvas(){
+    alert("test");
+}
 function locateFile(path) {
     if (Module["locateFile"]) {
         return Module["locateFile"](path, scriptDirectory)
