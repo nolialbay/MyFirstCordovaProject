@@ -1,13 +1,14 @@
 {
-    "name" : "cordova-plugin-wacom-signature",
+    "name" : "cordova-plugin-wacom",
     "version": "1.0",
     "description": "Cordova plugin to use for electronic signature.",
     "files": [
         "src",
+        "www",
         "plugin.xml"
     ],
     "cordova": {
-        "id": "cordova-plugin-wacom-signature",
+        "id": "cordova-plugin-wacom",
         "platforms":[
             "android",
             "browser"
@@ -15,7 +16,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/nolialbay/cordova-wacom-signature.git"
+        "url": "git+https://github.com/nolialbay/cordova-wacom-signature.git"
     },
     "keywords": [
         "ecosystem:cordova",

@@ -1,10 +1,10 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="cordova-plugin-wacom-signature"
+    id="cordova-plugin-wacom"
     version="1.0">
 <name>cordova-plugin-wacom-signature</name>
- <js-module name="stripe" src="www/simle.js">
-        <clobbers target="cordova.plugins.wacom" />
+ <js-module name="wacom" src="www/simple.js">
+        <clobbers target="cordova.plugin.wacom" />
     </js-module>
 <platform name="browser">
     <config-file target="config.xml" parent="/*"></config-file>
