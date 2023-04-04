@@ -1,0 +1,12 @@
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="cordova-plugin-wacom-signature"
+    version="1.0">
+<name>cordova-plugin-wacom-signature</name>
+
+<platform name="browser">
+    <config-file target="config.xml" parent="/*"></config-file>
+    <js-module  src="src/browser/signature_sdk.js" name="signature">
+    </js-module>
+</platform>
+</plugin>
